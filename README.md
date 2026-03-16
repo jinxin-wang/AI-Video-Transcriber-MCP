@@ -4,13 +4,13 @@
 
 中文 | [English](README_EN.md)
 
-分支开发一款开源的AI视频/播客转录和摘要MCP工具，支持YouTube、Bilibili、抖音、Apple Podcasts、SoundCloud等30+平台。
+分支开发一款开源的AI视频/播客转录和摘要MCP工具，支持YouTube、Bilibili、抖音、Apple Podcasts、SoundCloud等30+主流平台，并计划陆续扩展国内的主流平台如小红书等。
 
 </div>
 
 ## ✨ 功能特性
 
-- 🎥 **多平台支持**: 支持YouTube、Bilibili、抖音、Apple Podcasts、SoundCloud等30+平台
+- 🎥 **多平台支持**: 支持YouTube、Bilibili、抖音、Apple Podcasts、SoundCloud等30+平台，并计划陆续扩展国内的主流平台如小红书等。
 - ⚡ **字幕优先架构**: 对有原生字幕的平台（如YouTube），直接提取字幕文本，无需下载音频，速度大幅提升；无字幕时自动回退至Whisper转录
 - 🗣️ **智能转录**: 无字幕时使用Faster-Whisper进行高精度语音转文字
 - 🤖 **AI文本优化**: 自动错别字修正、句子完整化和智能分段
