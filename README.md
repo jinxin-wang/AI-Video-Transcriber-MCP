@@ -2,9 +2,9 @@
 
 # AI视频转录器
 
-中文 | [English](README.md)
+中文 | [English](README_EN.md)
 
-一款开源的AI视频/播客转录和摘要工具，支持YouTube、Bilibili、抖音、Apple Podcasts、SoundCloud等30+平台。
+分支开发一款开源的AI视频/播客转录和摘要MCP工具，支持YouTube、Bilibili、抖音、Apple Podcasts、SoundCloud等30+平台。
 
 ![Interface](cn-video.png)
 
@@ -353,26 +353,14 @@ docker pull hello-world
   | 15分钟 | ≈15秒 | 5–15分钟 | 大多数YouTube视频支持字幕模式 |
   | 30分钟+ | ≈20秒 | 15–60分钟 | 纯音频/播客始终使用Whisper |
 
-## 🤝 贡献指南
-
-欢迎提交Issue和Pull Request！
-
-1. Fork项目
-2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启Pull Request 
-
 ## 致谢
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - 强大的视频下载工具
-- [Faster-Whisper](https://github.com/guillaumekln/faster-whisper) - 高效的Whisper实现
+- [XHS-Downloader](https://github.com/JoeanAmier/XHS-Downloader) - 小红书的视频专项下载工具
+- [Faster-Whisper](https://github.com/guillaumekln/faster-whisper) - 高效的Whisper实现，batch运行效率高
+- [whisper.cpp](https://github.com/ggml-org/whisper.cpp) - 高效的Whisper实现，单个运行效率高
 - [FastAPI](https://fastapi.tiangolo.com/) - 现代化的Python Web框架
 - [OpenAI](https://openai.com/) - 智能文本处理API
-
-## 📞 联系方式
-
-如有问题或建议，请提交Issue或联系Wendy。
 
 ---
 
@@ -389,8 +377,3 @@ docker pull hello-world
 
 ➡️ [sipsip.ai](https://sipsip.ai)
 
----
-
-## ⭐ Star History
-
-如果您觉得这个项目有帮助，请考虑给它一个星星！
