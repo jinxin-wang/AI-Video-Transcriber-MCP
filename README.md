@@ -6,8 +6,6 @@
 
 分支开发一款开源的AI视频/播客转录和摘要MCP工具，支持YouTube、Bilibili、抖音、Apple Podcasts、SoundCloud等30+平台。
 
-![Interface](cn-video.png)
-
 </div>
 
 ## ✨ 功能特性
